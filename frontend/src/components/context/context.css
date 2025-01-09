@@ -1,0 +1,36 @@
+.context__uppe {
+  padding: 20px 0 30px 40px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  /*
+  font-size: 22px;
+  text-align: center;
+  background-color: #ff2a2a;
+  */
+  font-size: 22px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.options-selectBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.selectBox__selector {
+  width: 75%;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #353535;
+  cursor: pointer;
+  appearance: none;
+}
+
+.selectBox__selector:focus {
+  outline: none;
+}

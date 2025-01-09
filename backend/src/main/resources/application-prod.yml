@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Alpha-Hack
+  datasource:
+    url: jdbc:postgresql://postgres-db:5432/postgres
+    username: postgres
+    password: 1
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath*:db/changelog-master.yml
+    enabled: true
+
+server:
+  port: 8001

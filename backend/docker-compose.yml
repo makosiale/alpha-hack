@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: postgres-db
+    ports:
+      - "9000:5432"
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1
+    restart: unless-stopped
+  alpha-backend:
+    build: .
+    image: alpha-backend
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    container_name: alpha-backend
+    ports:
+      - "8001:8001"
+    depends_on:
+      - postgres-db
+
