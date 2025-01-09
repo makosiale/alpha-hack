@@ -1,0 +1,39 @@
+.info__uppe {
+  padding: 20px 0 30px 40px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  /*
+  font-size: 22px;
+  text-align: center;
+  background-color: #ff2a2a;
+  */
+  font-size: 22px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.info-blocks {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.block__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.block__descr {
+  margin: 0;
+  font-weight: 700;
+  text-decoration: none;
+}

@@ -1,0 +1,41 @@
+.container {
+  width: 99vw;
+  height: 98vh;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr; 
+  grid-template-rows: auto auto auto; 
+  gap: 5vh;
+  padding: 4vh;
+  box-sizing: border-box;
+}
+
+.context {
+  min-width: 370px;
+  border-radius: 30px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-color: #fff;
+}
+
+.info {
+  border-radius: 30px;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  background-color: #fff;
+}
+
+.jsonRedactor {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  border-radius: 30px;
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
+
+.apiInfo {
+  border-radius: 30px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-color: #fff;
+}
