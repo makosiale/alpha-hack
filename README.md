@@ -11,12 +11,10 @@
 
 ## Шаг 1: Клонирование репозиториев
 
-Склонируйте все необходимые репозитории в **одну папку** на вашем локальном компьютере. Используйте команду `git clone` для каждого репозитория.
+Склонируйте все необходимые репозитории в **одну папку** на вашем локальном компьютере. Используйте команду `git clone`.
 
 ```bash
-git clone https://gitlab.com/alpha-bank-hack/backend.git
-git clone https://gitlab.com/alpha-bank-hack/frontend.git
-git clone https://gitlab.com/alpha-bank-hack/ml-model.git
+git clone https://github.com/makosiale/alpha-hack.git
 ```
 
 ## Шаг 2: Создание файла docker-compose
